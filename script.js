@@ -49,8 +49,3 @@ document.addEventListener("DOMContentLoaded", function () {
         form.action = atob("aHR0cHM6Ly9zdWJtaXQtZm9ybS5jb20vSHRjaWx3QkRE");
     });
 });
-@media (max-width: 768px) {
-  .content-section {
-    grid-template-columns: 1fr;
-  }
-}
