@@ -1,11 +1,23 @@
 window.onload = function() {
-    let currentIndex = 0;
-    const slides = document.querySelectorAll(".slide");
-    const totalSlides = slides.length;
-    const slider = document.querySelector(".hero-slider");
-    const prevBtn = document.querySelector(".prev");
-    const nextBtn = document.querySelector(".next");
+let currentIndex = 0;
+const slides = document.querySelectorAll(".slide");
+const totalSlides = slides.length;
+const slider = document.querySelector(".hero-slider");
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
 
+function moveSlide(direction) {
+    currentIndex += direction;
+    if (currentIndex >= totalSlides) currentIndex = 0;
+    if (currentIndex < 0) currentIndex = totalSlides - 1;
+    updateSlider();
+}
+
+function updateSlider() {
+    slider.style.transform = `translateX(${-currentIndex * 100}%)`;
+}
+
+window.onload = function () {
     if (!slides.length || !slider) {
         console.error("Slider elements not found!");
         return;
@@ -16,22 +28,11 @@ window.onload = function() {
         nextBtn.addEventListener("click", () => moveSlide(1));
     }
 
-    function moveSlide(direction) {
-        currentIndex += direction;
-        if (currentIndex >= totalSlides) currentIndex = 0;
-        if (currentIndex < 0) currentIndex = totalSlides - 1;
-        updateSlider();
-    }
-
-    function updateSlider() {
-        slider.style.transform = `translateX(${-currentIndex * 100}%)`;
-    }
-
-    // Ensure the slider starts moving only when there are slides
     if (totalSlides > 1) {
         setInterval(() => moveSlide(1), 5000);
     }
 };
+
 
 document.querySelector('a[href="#news"]').addEventListener("click", function(e) {
     e.preventDefault();
