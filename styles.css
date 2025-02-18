@@ -1,0 +1,759 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #006778; /* Primary accent color */
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.logo img {
+    height: 120px;
+}
+
+/* Navigation Bar */
+.nav-container {
+    display: flex; /* Ensures everything stays in a row */
+    justify-content: space-between; /* Push items to the edges */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    background-color: white;
+    padding: 10px 5%; /* Add padding on the sides */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+/* Call-to-action links */
+.cta-links {
+    display: flex;
+    align-items: center;
+}
+
+.cta {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Home { color: #e74c3c; }
+.apply { color: #2980b9; }
+
+
+.cta:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+.hero {
+margin-top: 0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.hero-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .cta-links {
+        flex-direction: column;
+    }
+
+    .cta {
+        margin: 5px 0;
+    }
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.about-text img {
+    width: 120px;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.apply-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+.apply-section-image {
+    position: relative;
+}
+
+.apply-section-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.grid-images {
+    display: flex;
+    gap: 10px;
+}
+
+.grid-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.what-sets-us-apart {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #e6f2f1;
+}
+
+.what-sets-us-apart h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.feature img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.feature-text {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-text h3 {
+    font-size: 24px;
+    color: #01796f;
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01796f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* ✅ This ensures proper left-right alternation */
+.feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.news-section {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #e6f2f1;
+}
+
+.news-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.news-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.news-text {
+    text-align: left;
+}
+
+.news-text a {
+    font-size: 18px;
+    color: #01796f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.news-text a:hover {
+    text-decoration: underline;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.news-text p {
+    font-size: 16px;
+    color: #444;
+}
+
+.admissions-section {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #f8f8f8;
+}
+
+.admissions-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01796f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #015b54;
+}
+
+.admissions-section p {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 10%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+.footer-bottom {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #1d3461;
+}
+
+/* Header */
+header {
+    background-color: #1d3461;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header a {
+    color: #6290c8;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #829cbc;
+}
+
+
+/* Buttons */
+button, .btn {
+    background-color: #376996;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #6290c8;
+}
+
+/* Section Styling */
+section {
+    padding: 50px;
+}
+
+.section-light {
+    background-color: #f8f9fa;
+    color: #1d3461;
+}
+
+.section-dark {
+    background-color: #1d3461;
+    color: white;
+}
+
+.section-highlight {
+    background-color: #1f487e;
+    color: white;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border: 1px solid #829cbc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero {
+    position: relative; /* Ensures buttons stay inside */
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+
+.hero-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mission Section: Layout for text and image side by side */
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Mission Section: Layout for text and image side by side */
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 1200px;
+}
+
+/* Reverse the order of flex items when .reverse is added */
+.mission.reverse {
+  flex-direction: row-reverse;
+}
+
+.mission-text {
+  flex: 1;
+}
+
+.mission-image {
+  flex: 1;
+  text-align: center;
+}
+
+.mission-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .mission,
+  .mission.reverse {
+    flex-direction: column;
+  }
+}
+/* ============================= */
+/* Faculty Section - Slider CSS  */
+/* ============================= */
+
+.faculty {
+  padding: 40px 10%;
+  background-color: #f8f8f8;
+}
+
+.faculty h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* The slider container */
+.faculty-grid {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  /* Optional: add padding to the bottom so the scrollbar (if visible) doesn’t cover content */
+  padding-bottom: 10px;
+
+  /* Enables smooth scrolling on supported devices */
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Each faculty member will take up half the container width minus the gap */
+.faculty-member {
+  flex: 0 0 calc(50% - 20px);
+  scroll-snap-align: start;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Make images responsive */
+.faculty-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Hide scrollbar in Webkit browsers */
+.faculty-grid::-webkit-scrollbar {
+  display: none;
+}
+/* Hero Static Section for a Single Image with Overlay */
+.hero-static {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.hero-static img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-static .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-static .overlay h1 {
+  margin: 0;
+  font-size: 2.5rem; /* Adjust font-size as needed */
+}
+.centered-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Form Wrapper */
+.form-container {
+  max-width: 500px; /* Adjust width as needed */
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+/* Form Inputs */
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form Button */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #01796f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #015b54;
+}
+
+/* Center Form */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
