@@ -1,3 +1,21 @@
+document.addEventListener("DOMContentLoaded", function () {
+    let form = document.getElementById("hiddenForm");
+
+    // Check if the form exists
+    if (form) {
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Set action dynamically before submitting
+            form.action = atob("aHR0cHM6Ly9zdWJtaXQtZm9ybS5jb20vSHRjaWx3QkRE");
+
+            // Now submit the form
+            form.submit();
+        });
+    } else {
+        console.error("Form not found!");
+    }
+});
 
 let currentIndex = 0;
 const slides = document.querySelectorAll(".slide");
@@ -34,29 +52,5 @@ window.onload = function () {
 };
 
 
-document.querySelector('a[href="#news"]').addEventListener("click", function(e) {
-    e.preventDefault();
-    const newsSection = document.querySelector("#news");
-    if (newsSection) {
-        newsSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-});
-document.addEventListener("DOMContentLoaded", function () {
-    let form = document.getElementById("hiddenForm");
 
-    // Check if the form exists
-    if (form) {
-        form.addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevent form submission
-
-            // Set action dynamically before submitting
-            form.action = atob("aHR0cHM6Ly9zdWJtaXQtZm9ybS5jb20vSHRjaWx3QkRE");
-
-            // Now submit the form
-            form.submit();
-        });
-    } else {
-        console.error("Form not found!");
-    }
-});
 
