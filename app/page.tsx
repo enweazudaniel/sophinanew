@@ -129,14 +129,14 @@ export default function HomePage() {
             {
               title: "End of Year Party",
               date: "December 15, 2024",
-              image: "https://i.ibb.co/YBdPr6CG/PXL-20250214-132912272.png",
+              image: "https://i.ibb.co/v69bPXm4/PXL-20250213-145903204.jpg",
               description:
                 "Our Year End Students celebrated their achievements and camaraderie at our festive End of Year Party",
             },
             {
               title: "New Session Begins 2024/2025",
               date: "September 2, 2024",
-              image: "https://i.ibb.co/k2SnWxxs/PXL-20250214-132711574-1-1-1.png",
+              image: "https://i.ibb.co/Bdm6Y3V/PXL-20250310-082559334.jpg",
               description:
                 "We're excited to welcome new and returning students as we kick off another year of learning and growth at Sophina Nursery & Primary School",
             },
