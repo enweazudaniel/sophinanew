@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ImageSlider } from "@/components/image-slider"
+import { ScrollingAnnouncement } from "@/components/scrolling-announcement"
 
 const slides = [
   { url: "https://i.ibb.co/LDmynBd5/PXL-20250213-151529031-1-1-1.png", alt: "Students at Sophina School" },
@@ -15,6 +16,9 @@ const slides = [
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
+      {/* Scrolling Announcement */}
+      <ScrollingAnnouncement text="Now accepting applications for the 2025-26 School Year" />
+
       {/* Hero Section */}
       <ImageSlider slides={slides} />
 
@@ -161,7 +165,6 @@ export default function HomePage() {
 
       {/* Application CTA */}
       <section className="py-16 container mx-auto px-4 text-center">
-        <h2 className="text-2xl font-bold mb-6 text-primary">Now accepting applications for the 2025-26 School Year</h2>
         <Link href="/apply">
           <Button size="lg" className="bg-primary hover:bg-primary/90 mb-6">
             Apply Now
