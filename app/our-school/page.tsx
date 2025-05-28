@@ -150,6 +150,7 @@ const basic7Images = [
   "/images/basic7/image2.jpeg",
   "/images/basic7/image3.jpeg",
   // Add placeholders to complete the 10 images
+  "https://i.ibb.co/LDB5J8yX/PXL-20250528-112108716-1.jpg",
   "https://i.ibb.co/wNWTntkm/PXL-20241021-131845101.jpg",
   "https://i.ibb.co/Z670tQrR/PXL-20241021-131858996.jpg",
   "https://i.ibb.co/1YjzKMsz/PXL-20241021-131919163.jpg",
