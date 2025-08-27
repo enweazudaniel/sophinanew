@@ -182,7 +182,7 @@ const graduationImages = [
   "https://i.ibb.co/r2jctCDW/PXL-20250723-154431077.jpg",
   "https://i.ibb.co/8gY79CGT/PXL-20250723-154441021.jpg",
   "https://i.ibb.co/hxPp0pLK/PXL-20250723-154446464.jpg",
-  "https://i.ibb.co/prkNZKR3/PXL-20250723-154457015.jpg"
+  "https://i.ibb.co/prkNZKR3/PXL-20250723-154457015.jpg",
 
 //old
   "https://i.ibb.co/Z6fmsqJs/PXL-20230714-105205426.jpg",
