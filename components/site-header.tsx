@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Menu, X, BookOpen, PenTool } from "lucide-react"
+import { Menu, X, BookOpen, PenTool, Award } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function SiteHeader() {
@@ -33,6 +33,12 @@ export function SiteHeader() {
       label: "E-Learning",
       icon: <BookOpen className="h-4 w-4 mr-1" />,
       description: "Access online classroom resources",
+    },
+    {
+      href: "https://sophinarslt.vercel.app",
+      label: "Results",
+      icon: <Award className="h-4 w-4 mr-1" />,
+      description: "Check your exam results",
     },
   ]
 
@@ -65,7 +71,7 @@ export function SiteHeader() {
               <Button
                 variant="outline"
                 size="sm"
-                className="flex items-center gap-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                className="flex items-center gap-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
               >
                 {item.icon}
                 {item.label}
