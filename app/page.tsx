@@ -134,7 +134,7 @@ export default function HomePage() {
             {
               title: "End of Year Party",
               date: "December 9, 2025",
-              image: "https://i.ibb.co/v69bPXm4/PXL-20250213-145903204.jpg",
+              image: "https://i.ibb.co/0yhkt7P5/Gemini-Generated-Image-vq06e9vq06e9vq06.png",
               description:
                 "Our Year End Students celebrated their achievements and camaraderie at our festive End of Year Party",
             },
