@@ -236,6 +236,9 @@ const sportsImages = [
   "https://i.ibb.co/39vTWmvh/PXL-20250319-110839915.jpg",
   "https://i.ibb.co/7JfYtR6B/PXL-20250319-112554300.jpg",
 ]
+const EOYImages = [
+  "https://i.ibb.co/hJ4TRQNj/Gemini-Generated-Image-vq06e9vq06e9vq06.png",
+  ]
 const CLUB = [
   "https://i.ibb.co/tp7Kz96r/PXL-20251010-130913336.jpg",
   "https://i.ibb.co/CpzGQBYH/PXL-20251017-124935029-NIGHT.jpg",
@@ -381,6 +384,11 @@ const classes = [
         name: "Sports",
         image: "https://i.ibb.co/pjmbvg7v/PXL-20250214-132912272-1-1-1.png",
         customImages: sportsImages,
+      },
+            {
+        name: "End of year Party",
+        image: "https://i.ibb.co/pjmbvg7v/PXL-20250214-132912272-1-1-1.png",
+        customImages: EOYImages,
       },
     ],
   },
