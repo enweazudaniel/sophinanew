@@ -1,3 +1,5 @@
+import { Youtube } from "lucide-react"
+
 export function Footer() {
   return (
     <footer className="bg-[#1F2937] text-white py-12">
@@ -19,6 +21,17 @@ export function Footer() {
               Email: sophina4christ@gmail.com
             </p>
           </div>
+        </div>
+        <div className="flex justify-center mb-6">
+          <a
+            href="https://youtube.com/@sophinaschools?si=r_l22fe6Kohra1Rc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-red-500 transition-colors"
+            aria-label="Visit our YouTube channel"
+          >
+            <Youtube className="h-6 w-6" />
+          </a>
         </div>
         <div className="text-center text-sm text-gray-400">
           © {new Date().getFullYear()} Sophina Nursery and Primary School

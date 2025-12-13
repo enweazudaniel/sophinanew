@@ -1,3 +1,5 @@
+import { Youtube } from "lucide-react"
+
 export function SiteFooter() {
   return (
     <footer className="bg-[#1F2937] dark:bg-muted/50 text-white py-12">
@@ -19,6 +21,17 @@ export function SiteFooter() {
               Email: sophina4christ@gmail.com
             </p>
           </div>
+        </div>
+        <div className="mb-4">
+          <a
+            href="https://youtube.com/@sophinaschools?si=r_l22fe6Kohra1Rc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-red-600 transition-colors"
+            aria-label="Visit our YouTube channel"
+          >
+            <Youtube className="w-5 h-5" />
+          </a>
         </div>
         <div className="text-sm text-gray-400">© {new Date().getFullYear()} Sophina Nursery and Primary School</div>
       </div>
