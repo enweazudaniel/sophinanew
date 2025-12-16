@@ -238,6 +238,18 @@ const sportsImages = [
 ]
 const EOYImages = [
   "https://i.ibb.co/hJ4TRQNj/Gemini-Generated-Image-vq06e9vq06e9vq06.png",
+  "https://i.ibb.co/qYgPfDR1/PXL-20251209-123457276.jpg" 
+"https://i.ibb.co/chwCkgpr/PXL-20251209-122808138.jpg" 
+"https://i.ibb.co/gFBnNq8W/PXL-20251209-113255363.jpg" 
+"https://i.ibb.co/M553YDpD/PXL-20251209-111620282.jpg" 
+"https://i.ibb.co/gbzM061s/PXL-20251209-110725543.jpg" 
+"https://i.ibb.co/tTmtTD96/PXL-20251209-104300698.jpg" 
+"https://i.ibb.co/4RVR266X/PXL-20251209-103840078.jpg" 
+"https://i.ibb.co/1Yr3qBXD/PXL-20251209-103746664.jpg" 
+"https://i.ibb.co/LhxGDsXP/PXL-20251209-103427567.jpg" 
+"https://i.ibb.co/TxWtbsBT/PXL-20251209-103326738.jpg" 
+"https://i.ibb.co/PsgHrZS8/PXL-20251209-103056153.jpg" 
+"https://i.ibb.co/7x60B95V/PXL-20251209-092519787.jpg" 
   ]
 const CLUB = [
   "https://i.ibb.co/tp7Kz96r/PXL-20251010-130913336.jpg",
@@ -396,27 +408,27 @@ const classes = [
     level: "Secondary School",
     sections: [
                 {
-        name: "SCIENCE AND ART CLUBS",
+        name: "Science and Art Club",
         image: "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
         customImages: CLUB,
       },
             {
-        name: "COMPUTER LAB",
+        name: "Computer Lab",
         image: "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
         customImages: CSLAB,
       },
       {
-        name: "BASIC 9",
+        name: "Basic 9",
         image: "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
         customImages: basic9Images,
       },
       {
-        name: "BASIC 8",
+        name: "Basic 8",
         image: "https://i.ibb.co/pjmbvg7v/PXL-20250214-132912272-1-1-1.png",
         customImages: basic8Images,
       },
       {
-        name: "BASIC 7",
+        name: "Basic 7",
         image: "https://i.ibb.co/7d5kgRB0/PXL-20250214-132730029-1-1-1.png",
         customImages: basic7Images,
       },
@@ -461,13 +473,18 @@ const staffMembers = [
   },
   {
     name: "Mr. Emmanuel A.",
-    position: "Diction/Phonics/Phonetics Teacher",
+    position: "Diction|Phonics|Phonetics Teacher",
     image: "https://i.ibb.co/jdgzbhR/photo-2025-04-19-19-44-33.jpg",
   },
   {
     name: "Mr. Daniel E.",
-    position: "Secondary School Teacher",
+    position: "ICT|Basic 7 - 9 Teacher",
     image: "https://i.ibb.co/VdWXV1x/photo-2025-04-19-19-03-01.jpg",
+  },
+  {
+    name: "Mrs. Happiness E.",
+    position: "Basic 9 Form Teacher",
+    image: "https://i.ibb.co/t7fWYr4/photo-2025-12-16-10.jpg",
   },
   {
     name: "Mrs. Stella-Maris",
