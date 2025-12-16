@@ -227,39 +227,39 @@ const sportsImages = [
   "https://i.ibb.co/fYRB239L/PXL-20250228-094415730.jpg",
   "https://i.ibb.co/TDTQFbMh/PXL-20250319-095023433-PORTRAIT.jpg",
   "https://i.ibb.co/p9vC3Hj/PXL-20250319-095044592-PORTRAIT.jpg",
-"https://i.ibb.co/zLXmnn0/PXL-20251112-083334366.jpg" ,
-"https://i.ibb.co/NgmvqNRp/PXL-20251112-083242933.jpg",
-"https://i.ibb.co/7tjg73rz/PXL-20251112-083014321.jpg",
-"https://i.ibb.co/Kp2bkJZp/PXL-20251112-082859905.jpg",
-"https://i.ibb.co/XpBGZh7/PXL-20251107-083050575.jpg" ,
-"https://i.ibb.co/sJCcT3Nc/PXL-20251107-083048799.jpg",
+  "https://i.ibb.co/zLXmnn0/PXL-20251112-083334366.jpg",
+  "https://i.ibb.co/NgmvqNRp/PXL-20251112-083242933.jpg",
+  "https://i.ibb.co/7tjg73rz/PXL-20251112-083014321.jpg",
+  "https://i.ibb.co/Kp2bkJZp/PXL-20251112-082859905.jpg",
+  "https://i.ibb.co/XpBGZh7/PXL-20251107-083050575.jpg",
+  "https://i.ibb.co/sJCcT3Nc/PXL-20251107-083048799.jpg",
   "https://i.ibb.co/39vTWmvh/PXL-20250319-110839915.jpg",
   "https://i.ibb.co/7JfYtR6B/PXL-20250319-112554300.jpg",
 ]
 const EOYImages = [
   "https://i.ibb.co/hJ4TRQNj/Gemini-Generated-Image-vq06e9vq06e9vq06.png",
-  "https://i.ibb.co/qYgPfDR1/PXL-20251209-123457276.jpg" 
-"https://i.ibb.co/chwCkgpr/PXL-20251209-122808138.jpg" 
-"https://i.ibb.co/gFBnNq8W/PXL-20251209-113255363.jpg" 
-"https://i.ibb.co/M553YDpD/PXL-20251209-111620282.jpg" 
-"https://i.ibb.co/gbzM061s/PXL-20251209-110725543.jpg" 
-"https://i.ibb.co/tTmtTD96/PXL-20251209-104300698.jpg" 
-"https://i.ibb.co/4RVR266X/PXL-20251209-103840078.jpg" 
-"https://i.ibb.co/1Yr3qBXD/PXL-20251209-103746664.jpg" 
-"https://i.ibb.co/LhxGDsXP/PXL-20251209-103427567.jpg" 
-"https://i.ibb.co/TxWtbsBT/PXL-20251209-103326738.jpg" 
-"https://i.ibb.co/PsgHrZS8/PXL-20251209-103056153.jpg" 
-"https://i.ibb.co/7x60B95V/PXL-20251209-092519787.jpg" 
-  ]
+  "https://i.ibb.co/qYgPfDR1/PXL-20251209-123457276.jpg",
+  "https://i.ibb.co/chwCkgpr/PXL-20251209-122808138.jpg",
+  "https://i.ibb.co/gFBnNq8W/PXL-20251209-113255363.jpg",
+  "https://i.ibb.co/M553YDpD/PXL-20251209-111620282.jpg",
+  "https://i.ibb.co/gbzM061s/PXL-20251209-110725543.jpg",
+  "https://i.ibb.co/tTmtTD96/PXL-20251209-104300698.jpg",
+  "https://i.ibb.co/4RVR266X/PXL-20251209-103840078.jpg",
+  "https://i.ibb.co/1Yr3qBXD/PXL-20251209-103746664.jpg",
+  "https://i.ibb.co/LhxGDsXP/PXL-20251209-103427567.jpg",
+  "https://i.ibb.co/TxWtbsBT/PXL-20251209-103326738.jpg",
+  "https://i.ibb.co/PsgHrZS8/PXL-20251209-103056153.jpg",
+]
+
 const CLUB = [
   "https://i.ibb.co/tp7Kz96r/PXL-20251010-130913336.jpg",
   "https://i.ibb.co/CpzGQBYH/PXL-20251017-124935029-NIGHT.jpg",
   "https://i.ibb.co/nNPF8SCJ/PXL-20251017-133456237-NIGHT.jpg",
   "https://i.ibb.co/PvJbrhn6/PXL-20251017-131426130-NIGHT.jpg",
-"https://i.ibb.co/M5J72PYK/PXL-20251017-131313140-NIGHT.jpg",
-"https://i.ibb.co/dwJN2q7C/PXL-20251017-131016560-NIGHT.jpg",
-"https://i.ibb.co/B5mQDHTM/PXL-20251017-130836837-NIGHT.jpg",
-"https://i.ibb.co/DPZ943bZ/PXL-20251017-125705345-NIGHT.jpg",
+  "https://i.ibb.co/M5J72PYK/PXL-20251017-131313140-NIGHT.jpg",
+  "https://i.ibb.co/dwJN2q7C/PXL-20251017-131016560-NIGHT.jpg",
+  "https://i.ibb.co/B5mQDHTM/PXL-20251017-130836837-NIGHT.jpg",
+  "https://i.ibb.co/DPZ943bZ/PXL-20251017-125705345-NIGHT.jpg",
 ]
 const CSLAB = [
   "https://i.ibb.co/mCQk1bG6/PXL-20251016-132855364-NIGHT.jpg",
@@ -267,22 +267,22 @@ const CSLAB = [
   "https://i.ibb.co/0jqXCwxw/PXL-20251201-112826053.jpg",
   "https://i.ibb.co/YT2mqFY9/PXL-20251201-112352365.jpg",
   "https://i.ibb.co/mZhbwtc/PXL-20251201-111746319.jpg",
-  "https://i.ibb.co/wrdCjHRJ/PXL-20251201-111740126.jpg" ,
-"https://i.ibb.co/yBSPq7Pt/PXL-20251201-111735461.jpg" ,
-"https://i.ibb.co/7NrLjhGK/PXL-20251201-111729374.jpg" ,
-"https://i.ibb.co/5xXcHdj6/PXL-20251201-111719644.jpg" ,
-"https://i.ibb.co/PRbJszP/PXL-20251201-111710645.jpg" ,
-"https://i.ibb.co/20LnYqBd/PXL-20251201-111706955.jpg" ,
-"https://i.ibb.co/hF7PhwSs/PXL-20251201-111702471.jpg" ,
-"https://i.ibb.co/1fv82Wf7/PXL-20251201-111656547.jpg" ,
-"https://i.ibb.co/cKyBsLkV/PXL-20251201-111649801.jpg" ,
-"https://i.ibb.co/pvVKXFYm/PXL-20251201-111643908.jpg" ,
-"https://i.ibb.co/1fGcJxJ8/PXL-20251201-111638779.jpg" ,
-"https://i.ibb.co/vvBbxJ2R/PXL-20251201-111631282.jpg" ,
+  "https://i.ibb.co/wrdCjHRJ/PXL-20251201-111740126.jpg",
+  "https://i.ibb.co/yBSPq7Pt/PXL-20251201-111735461.jpg",
+  "https://i.ibb.co/7NrLjhGK/PXL-20251201-111729374.jpg",
+  "https://i.ibb.co/5xXcHdj6/PXL-20251201-111719644.jpg",
+  "https://i.ibb.co/PRbJszP/PXL-20251201-111710645.jpg",
+  "https://i.ibb.co/20LnYqBd/PXL-20251201-111706955.jpg",
+  "https://i.ibb.co/hF7PhwSs/PXL-20251201-111702471.jpg",
+  "https://i.ibb.co/1fv82Wf7/PXL-20251201-111656547.jpg",
+  "https://i.ibb.co/cKyBsLkV/PXL-20251201-111649801.jpg",
+  "https://i.ibb.co/pvVKXFYm/PXL-20251201-111643908.jpg",
+  "https://i.ibb.co/1fGcJxJ8/PXL-20251201-111638779.jpg",
+  "https://i.ibb.co/vvBbxJ2R/PXL-20251201-111631282.jpg",
 ]
 
 const basic9Images = [
-"https://i.ibb.co/C52ZXWHk/PXL-20251201-103027004.jpg",
+  "https://i.ibb.co/C52ZXWHk/PXL-20251201-103027004.jpg",
   "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
   "https://i.ibb.co/KpYWSdpH/PXL-20251201-103041313.jpg",
   "https://i.ibb.co/TMxcBb2X/PXL-20251201-103037493.jpg",
@@ -292,15 +292,14 @@ const basic9Images = [
 // Basic 8 images
 const basic8Images = [
   "https://i.ibb.co/LDB5J8yX/PXL-20250528-112108716-1.jpg",
-    "https://i.ibb.co/Z670tQrR/PXL-20241021-131858996.jpg",
+  "https://i.ibb.co/Z670tQrR/PXL-20241021-131858996.jpg",
   "https://i.ibb.co/1YjzKMsz/PXL-20241021-131919163.jpg",
-       "https://i.ibb.co/203HqdkK/PXL-20250305-090627131.jpg",
+  "https://i.ibb.co/203HqdkK/PXL-20250305-090627131.jpg",
   "https://i.ibb.co/SXMtkK5D/PXL-20250321-105741882.jpg",
   "https://i.ibb.co/JR0ctSMB/PXL-20250321-131021778.jpg",
   "https://i.ibb.co/vxKPpx4v/PXL-20250321-131025676.jpg",
   "https://i.ibb.co/QjDCRyhw/PXL-20250326-094408031.jpg",
   "https://i.ibb.co/WNqMDLdZ/PXL-20250326-110252100.jpg",
-  
 ]
 
 // Basic 7 images
@@ -320,21 +319,21 @@ const basic5Images = [
 ]
 // Basic 4 images
 const basic4Images = [
-  "https://i.ibb.co/vCbRMNhN/PXL-20251201-122934470.jpg" ,
-"https://i.ibb.co/0jSKBpBW/PXL-20251201-122930969.jpg" ,
-"https://i.ibb.co/Q73M0vZ0/PXL-20251201-122927540.jpg" ,
-"https://i.ibb.co/8D5Jp29Y/PXL-20251201-122923135.jpg" ,
-"https://i.ibb.co/gBcmzKH/PXL-20251201-122919764.jpg" ,
-"https://i.ibb.co/pvyYmHQY/PXL-20251201-122915912.jpg",
-"https://i.ibb.co/fWwFLTB/PXL-20251201-122902421.jpg" ,
+  "https://i.ibb.co/vCbRMNhN/PXL-20251201-122934470.jpg",
+  "https://i.ibb.co/0jSKBpBW/PXL-20251201-122930969.jpg",
+  "https://i.ibb.co/Q73M0vZ0/PXL-20251201-122927540.jpg",
+  "https://i.ibb.co/8D5Jp29Y/PXL-20251201-122923135.jpg",
+  "https://i.ibb.co/gBcmzKH/PXL-20251201-122919764.jpg",
+  "https://i.ibb.co/pvyYmHQY/PXL-20251201-122915912.jpg",
+  "https://i.ibb.co/fWwFLTB/PXL-20251201-122902421.jpg",
 ]
 // Basic 3 images
 const basic3Images = [
-"https://i.ibb.co/Wvk8GyFC/PXL-20251201-123100997.jpg",
-"https://i.ibb.co/Hf9JwDQt/PXL-20251201-123057347.jpg" ,
-"https://i.ibb.co/dJHHsTPH/PXL-20251201-123050331.jpg" ,
-"https://i.ibb.co/S4gPxJnF/PXL-20251201-123044212.jpg" ,
-"https://i.ibb.co/BVNjxhJn/PXL-20250327-110230929.jpg",
+  "https://i.ibb.co/Wvk8GyFC/PXL-20251201-123100997.jpg",
+  "https://i.ibb.co/Hf9JwDQt/PXL-20251201-123057347.jpg",
+  "https://i.ibb.co/dJHHsTPH/PXL-20251201-123050331.jpg",
+  "https://i.ibb.co/S4gPxJnF/PXL-20251201-123044212.jpg",
+  "https://i.ibb.co/BVNjxhJn/PXL-20250327-110230929.jpg",
 ]
 // Basic 2 images
 const basic2Images = [
@@ -346,7 +345,7 @@ const basic2Images = [
 ]
 // Basic 1 images
 const basic1Images = [
-    "https://i.ibb.co/0jNsh6Tb/PXL-20250304-121744554.jpg",
+  "https://i.ibb.co/0jNsh6Tb/PXL-20250304-121744554.jpg",
   "https://i.ibb.co/qLqFHW5g/PXL-20250304-121749570.jpg",
   "https://i.ibb.co/5XTmjL7z/PXL-20250305-084802173.jpg",
   "https://i.ibb.co/DDmY50Cj/PXL-20250305-084807490.jpg",
@@ -369,12 +368,10 @@ const nursery1Images = [
   "https://i.ibb.co/TxJ895bq/PXL-20251201-123400849.jpg",
 ]
 // Pre-Nursery images
-const preNurseryImages = [
-  "https://i.ibb.co/qM3xcTZr/PXL-20251201-123313920.jpg",
-]
+const preNurseryImages = ["https://i.ibb.co/qM3xcTZr/PXL-20251201-123313920.jpg"]
 // Creche images
 const crecheImages = [
-    "https://i.ibb.co/vxkd5Wk5/PXL-20250305-091441427.jpg",
+  "https://i.ibb.co/vxkd5Wk5/PXL-20250305-091441427.jpg",
   "https://i.ibb.co/chwBs56H/PXL-20250305-091444245.jpg",
 ]
 
@@ -397,7 +394,7 @@ const classes = [
         image: "https://i.ibb.co/pjmbvg7v/PXL-20250214-132912272-1-1-1.png",
         customImages: sportsImages,
       },
-            {
+      {
         name: "End of year Party",
         image: "https://i.ibb.co/pjmbvg7v/PXL-20250214-132912272-1-1-1.png",
         customImages: EOYImages,
@@ -407,12 +404,12 @@ const classes = [
   {
     level: "Secondary School",
     sections: [
-                {
+      {
         name: "Science and Art Club",
         image: "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
         customImages: CLUB,
       },
-            {
+      {
         name: "Computer Lab",
         image: "https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg",
         customImages: CSLAB,
