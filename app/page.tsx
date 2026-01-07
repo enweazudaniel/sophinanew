@@ -36,7 +36,7 @@ export default function HomePage() {
         </div>
         <div className="aspect-video w-full rounded-lg overflow-hidden bg-muted">
           <iframe
-            src="https://www.youtube.com/embed/eBqP4S7SRo0?si=WOmkA73KuNrqfb-A" 
+            src="https://www.youtube.com/embed/CldEfh80zxw?si=hyGT_cjQro1P2Hig"
             title="Welcome to Sophina School"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
