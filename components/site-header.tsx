@@ -29,7 +29,7 @@ export function SiteHeader() {
       description: "Take tests and exams online",
     },
     {
-      href: "https://sophinaedu.vercel.app/login",
+      href: "https://sophinaedu.lovable.app",
       label: "E-Learning",
       icon: <BookOpen className="h-4 w-4 mr-1" />,
       description: "Access online classroom resources",
