@@ -24,7 +24,7 @@ export function Footer() {
         </div>
         <div className="flex justify-center mb-6">
           <a
-            href="https://youtube.com/@sophinaschools?si=r_l22fe6Kohra1Rc"
+            href="https://youtube.com/@sophinaschool?si=mzLE2jOaDnTWtgKJ"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-500 transition-colors"
