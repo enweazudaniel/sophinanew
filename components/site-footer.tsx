@@ -24,7 +24,7 @@ export function SiteFooter() {
         </div>
         <div className="mb-4">
           <a
-            href="https://youtube.com/@sophinaschools?si=r_l22fe6Kohra1Rc"
+            href="https://youtube.com/@sophinaschool?si=mzLE2jOaDnTWtgKJ"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-red-600 transition-colors"
