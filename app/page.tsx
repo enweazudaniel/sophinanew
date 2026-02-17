@@ -9,7 +9,7 @@ const slides = [
     { url: "https://i.ibb.co/xKR8G410/photo-2025-12-03-23-15-02.jpg", alt: "Art and music programs" },
   { url: "https://i.ibb.co/VW78JMW0/PXL-20260128-102733820.jpg", alt: "School facilities" },
   { url: "https://i.ibb.co/ZRt4tQv5/PXL-20251112-082859905.jpg", alt: "Classroom activities" },
-  { url: "https://i.ibb.co/0VJv6qHH/PXL-20250213-150343830-1-1-1.png", alt: "Sports events" },
+  { url: "https://i.ibb.co/FqBWL9T9/PXL-20251201-123313920-1.jpg", alt: "Sports events" },
   { url: "https://i.ibb.co/ksHgK2Cw/photo-1-2026-02-17-10-24-24.jpg", alt: "Classroom activities" },
 
 ]
