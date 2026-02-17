@@ -8,9 +8,9 @@ const slides = [
   { url: "https://i.ibb.co/p9vC3Hj/PXL-20250319-095044592-PORTRAIT.jpg", alt: "Students at Sophina School" },
     { url: "https://i.ibb.co/xKR8G410/photo-2025-12-03-23-15-02.jpg", alt: "Art and music programs" },
   { url: "https://i.ibb.co/9QvdnNY/PXL-20250213-084232933-1-1-1.png", alt: "School facilities" },
-  { url: "https://i.ibb.co/YBdPr6CG/PXL-20250214-132912272.png", alt: "Classroom activities" },
+  { url: "https://i.ibb.co/ZRt4tQv5/PXL-20251112-082859905.jpg", alt: "Classroom activities" },
   { url: "https://i.ibb.co/0VJv6qHH/PXL-20250213-150343830-1-1-1.png", alt: "Sports events" },
-  { url: "https://i.ibb.co/gM35N07H/PXL-20250214-123830910.jpg", alt: "Classroom activities" },
+  { url: "https://i.ibb.co/ksHgK2Cw/photo-1-2026-02-17-10-24-24.jpg", alt: "Classroom activities" },
 
 ]
 
