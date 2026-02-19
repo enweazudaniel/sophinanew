@@ -7,10 +7,10 @@ import { ScrollingAnnouncement } from "@/components/scrolling-announcement"
 const slides = [
   { url: "https://i.ibb.co/p9vC3Hj/PXL-20250319-095044592-PORTRAIT.jpg", alt: "Students at Sophina School" },
     { url: "https://i.ibb.co/xKR8G410/photo-2025-12-03-23-15-02.jpg", alt: "Art and music programs" },
-  { url: "https://i.ibb.co/VW78JMW0/PXL-20260128-102733820.jpg", alt: "School facilities" },
-  { url: "https://i.ibb.co/ZRt4tQv5/PXL-20251112-082859905.jpg", alt: "Classroom activities" },
-  { url: "https://i.ibb.co/FqBWL9T9/PXL-20251201-123313920-1.jpg", alt: "Sports events" },
-  { url: "https://i.ibb.co/ksHgK2Cw/photo-1-2026-02-17-10-24-24.jpg", alt: "Classroom activities" },
+  { url: "https://i.ibb.co/39y8k00P/photo-1-2026-02-17-10-24-24.jpg", alt: "School facilities" },
+  { url: "https://i.ibb.co/BH9gJJVy/PXL-20251107-083048799.jpg", alt: "Classroom activities" },
+  { url: "https://i.ibb.co/NGxx2pB/PXL-20251201-123313920-1.jpg", alt: "Sports events" },
+  { url: "https://i.ibb.co/DHmGBPKX/PXL-20260128-102733820.jpg", alt: "Classroom activities" },
 
 ]
 
