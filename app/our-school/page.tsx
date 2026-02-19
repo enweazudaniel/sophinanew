@@ -555,7 +555,7 @@ const staffMembers = [
   {
     name: "Mrs. Happiness E.",
     position: "Basic 9 Form Teacher",
-    image: "https://i.ibb.co/TxYYCZYQ/photo-2026-02-17-11-12-39.jpg",
+    image: "https://i.ibb.co/1GdjYQyG/photo-2026-02-17-11-12-39.jpg",
   },
   {
     name: "Mrs. Stella-Maris",
