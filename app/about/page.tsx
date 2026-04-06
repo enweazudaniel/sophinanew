@@ -54,7 +54,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[4/3] w-full">
               <Image
-                src="https://i.ibb.co/0RZZVq15/PXL-20230714-111207121-1-1-1.png"
+                src="https://i.ibb.co/k29pVq6B/PXL-20260401-112327042.jpg"
                 alt="Mission Image"
                 fill
                 className="object-cover rounded-lg"
