@@ -33,7 +33,7 @@ export function SiteFooter() {
             <Youtube className="w-5 h-5" />
           </a>
         </div>
-        <div className="text-sm text-gray-400">© {new Date().getFullYear()} Sophina Nursery and Primary School</div>
+        <div className="text-sm text-gray-400">© {new Date().getFullYear()} Sophina School</div>
       </div>
     </footer>
   )
