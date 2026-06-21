@@ -4,9 +4,9 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Mission & Vision",
   description:
-    "Discover our mission and vision at Sophina Nursery and Primary School. We provide high-quality, inclusive education fostering holistic development of each child.",
+    "Discover our mission and vision at Sophina School. We provide high-quality, inclusive education fostering holistic development of each child.",
   openGraph: {
-    title: "Mission & Vision | Sophina Nursery and Primary School",
+    title: "Mission & Vision | Sophina School",
     description:
       "Learn about our mission to provide high-quality, inclusive education and our vision for confident, compassionate learners.",
     images: [
@@ -44,7 +44,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">Mission</h2>
               <p className="text-muted-foreground">
-                Our mission at Sophina Nursery and Primary School is to provide a high-quality, inclusive education that
+                Our mission at Sophina School is to provide a high-quality, inclusive education that
                 fosters the holistic development of each child. We are committed to giving our students a competitive
                 edge through an extensive curriculum and dynamic teaching methodologies, and to creating a positive and
                 supportive learning environment that promotes creativity, critical thinking, and collaboration. Our goal
@@ -79,7 +79,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-primary">Vision</h2>
               <p className="text-muted-foreground">
-                At Sophina Nursery and Primary School, we envision a future where all our students are confident,
+                At Sophina School, we envision a future where all our students are confident,
                 compassionate, and curious learners who are well-equipped to thrive in a rapidly changing world. Through
                 a dynamic and inclusive learning environment, we empower our students to reach their full potential and
                 become responsible global citizens who make a positive impact on their communities and the world.
