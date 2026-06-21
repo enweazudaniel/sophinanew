@@ -5,9 +5,9 @@ import { ClassImageSlider } from "@/components/class-image-slider"
 export const metadata: Metadata = {
   title: "Our School",
   description:
-    "Explore our school facilities, classes, and dedicated staff at Sophina Nursery and Primary School. From Pre-Nursery to Basic 8, we offer comprehensive education.",
+    "Explore our school facilities, classes, and dedicated staff at Sophina School. From Pre-Nursery to Basic 8, we offer comprehensive education.",
   openGraph: {
-    title: "Our School | Sophina Nursery and Primary School",
+    title: "Our School | Sophina School",
     description:
       "Discover our comprehensive educational programs from Pre-Nursery to Basic 8, and meet our dedicated staff.",
     images: [

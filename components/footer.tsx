@@ -34,7 +34,7 @@ export function Footer() {
           </a>
         </div>
         <div className="text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Sophina Nursery and Primary School
+          © {new Date().getFullYear()} Sophina School
         </div>
       </div>
     </footer>

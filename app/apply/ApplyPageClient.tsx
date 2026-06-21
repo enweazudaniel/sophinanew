@@ -61,7 +61,7 @@ export default function ApplyPageClient() {
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-primary">Applications for the 2025-26 School Year are now open!</h2>
             <p className="text-muted-foreground">
-              At Sophina Nursery and Primary School, we believe in providing a rigorous and inclusive educational
+              At Sophina School, we believe in providing a rigorous and inclusive educational
               environment for every learner. We welcome students from all backgrounds and look forward to reviewing your
               application.
             </p>

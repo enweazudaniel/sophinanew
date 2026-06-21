@@ -55,7 +55,7 @@ export default function HomePage() {
               className="rounded-full"
             />
             <div>
-              <h2 className="text-2xl font-bold mb-4">Welcome to Sophina Nursery and Primary School</h2>
+              <h2 className="text-2xl font-bold mb-4">Welcome to Sophina School</h2>
               <p className="text-gray-600">
                 We foster a culture of excellence, fostering a love for learning in a nurturing environment. Our
                 approach encourages curiosity, creativity, and a strong foundation in academics and character
@@ -95,7 +95,7 @@ export default function HomePage() {
               <div className="p-6 bg-white rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-blue-600 mb-4">Learner-Centered</h3>
                 <p className="text-gray-600 mb-4">
-                  At Sophina Nursery and Primary School, students take charge of their learning journey with our
+                  At Sophina School, students take charge of their learning journey with our
                   innovative approach to education. Our distinctive environment fosters independence, curiosity, and a
                   lifelong love for learning.
                 </p>
@@ -229,7 +229,7 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="text-center text-sm text-gray-400">© Sophina Nursery and Primary School</div>
+          <div className="text-center text-sm text-gray-400">© Sophina School</div>
         </div>
       </footer>
     </div>

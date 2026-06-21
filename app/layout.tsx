@@ -10,21 +10,21 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Sophina Nursery and Primary School",
-    template: "%s | Sophina Nursery and Primary School",
+    default: "Sophina School",
+    template: "%s | Sophina School",
   },
   description:
-    "Sophina Nursery and Primary School provides high-quality education fostering holistic development of each child through innovative teaching methods and a supportive learning environment.",
+    "Sophina School provides high-quality education fostering holistic development of each child through innovative teaching methods and a supportive learning environment.",
   keywords: ["school", "education", "nursery", "primary school", "Ogwashi-Uku", "Delta State", "Nigeria"],
-  authors: [{ name: "Sophina Nursery and Primary School" }],
-  creator: "Sophina Nursery and Primary School",
+  authors: [{ name: "Sophina School" }],
+  creator: "Sophina School",
   openGraph: {
     type: "website",
     locale: "en_NG",
     url: "https://sophina.vercel.app",
-    title: "Sophina Nursery and Primary School",
+    title: "Sophina School",
     description: "Quality education for nursery and primary school children in Ogwashi-Uku, Delta State.",
-    siteName: "Sophina Nursery and Primary School",
+    siteName: "Sophina School",
     images: [
       {
         url: "https://i.ibb.co/Kv2kM0c/photo-2023-08-07-14-24-24.jpg",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sophina Nursery and Primary School",
+    title: "Sophina School",
     description: "Quality education for nursery and primary school children in Ogwashi-Uku, Delta State.",
     images: ["https://i.ibb.co/Kv2kM0c/photo-2023-08-07-14-24-24.jpg"],
   },
