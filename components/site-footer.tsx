@@ -1,4 +1,4 @@
-import { Youtube } from "lucide-react"
+import { Youtube, Instagram } from "lucide-react"
 
 export function SiteFooter() {
   return (
@@ -22,7 +22,7 @@ export function SiteFooter() {
             </p>
           </div>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 flex justify-center gap-4">
           <a
             href="https://youtube.com/@sophinaschool?si=mzLE2jOaDnTWtgKJ"
             target="_blank"
@@ -31,6 +31,15 @@ export function SiteFooter() {
             aria-label="Visit our YouTube channel"
           >
             <Youtube className="w-5 h-5" />
+          </a>
+                <a
+            href="https://www.instagram.com/sophinaschool?igsh=OGJ1cGdvYThhdXZi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-pink-600 transition-colors"
+            aria-label="Visit our Instagram page"
+          >
+            <Instagram className="w-5 h-5" />
           </a>
         </div>
         <div className="text-sm text-gray-400">© {new Date().getFullYear()} Sophina School</div>
