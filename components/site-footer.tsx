@@ -4,20 +4,22 @@ export function SiteFooter() {
   return (
     <footer className="bg-primary text-primary-foreground border-t border-primary/10 py-16">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 mb-12">
-          <div className="space-y-2">
-            <h3 className="font-bold text-lg tracking-wide">SCHOOL ADDRESS</h3>
-            <div className="text-primary-foreground/90 text-sm leading-relaxed space-y-1">
-              <p>Off Polytechnic Road</p>
-              <p>Ogwashi-Uku, Delta State, 320109</p>
-            </div>
+        <div className="grid md:grid-cols-2 gap-12 mb-12 text-center md:text-center">
+          <div>
+            <h3 className="font-bold text-lg tracking-wide mb-4">SCHOOL ADDRESS</h3>
+            <p className="text-primary-foreground/90 text-sm leading-relaxed">
+              Off Polytechnic Road
+              <br />
+              Ogwashi-Uku,Delta State, 320109
+            </p>
           </div>
-          <div className="space-y-2">
-            <h3 className="font-bold text-lg tracking-wide">CONTACT US</h3>
-            <div className="text-primary-foreground/90 text-sm leading-relaxed space-y-1">
-              <p>Phone: 07038046878, 08027446756</p>
-              <p>Email: sophina4christ@gmail.com</p>
-            </div>
+          <div>
+            <h3 className="font-bold text-lg tracking-wide mb-4">CONTACT US</h3>
+            <p className="text-primary-foreground/90 text-sm leading-relaxed">
+              Phone: 07038046878,08027446756
+              <br />
+              Email: sophina4christ@gmail.com
+            </p>
           </div>
         </div>
         
