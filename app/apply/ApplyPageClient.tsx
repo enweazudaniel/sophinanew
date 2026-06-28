@@ -60,7 +60,7 @@ export default function ApplyPageClient() {
           {/* Left Column */}
           <div className="space-y-8 animate-fade-in-up">
             <div>
-              <h2 className="text-primary mb-6">Applications for the 2025-26 School Year are now open!</h2>
+              <h2 className="text-primary mb-6">Applications for the 2026-27 School Year are now open!</h2>
               <p className="text-lg text-muted-foreground leading-8 mb-6">
                 At Sophina School, we believe in providing a rigorous and inclusive educational
                 environment for every learner. We welcome students from all backgrounds and look forward to reviewing your

@@ -20,7 +20,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Scrolling Announcement */}
-      <ScrollingAnnouncement text="Now accepting applications for the 2025-26 School Year" />
+      <ScrollingAnnouncement text="Now accepting applications for the 2026-27 School Year" />
 
       {/* Hero Section */}
       <ImageSlider slides={slides} />
