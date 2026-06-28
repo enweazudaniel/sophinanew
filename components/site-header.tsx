@@ -43,8 +43,8 @@ export function SiteHeader() {
   ]
 
   return (
-    <header className="border-b relative bg-background z-50">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+    <header className="border-b border-border/50 relative bg-background z-50 backdrop-blur-sm shadow-sm">
+      <div className="container mx-auto px-4 py-5 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="https://i.ibb.co/Kv2kM0c/photo-2023-08-07-14-24-24.jpg"
@@ -58,25 +58,26 @@ export function SiteHeader() {
         {/* Main Navigation - Desktop */}
         <nav className="hidden md:flex gap-8">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="text-muted-foreground hover:text-foreground">
+            <Link key={item.href} href={item.href} className="text-muted-foreground hover:text-primary font-medium transition-colors duration-300 relative group">
               {item.label}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </Link>
           ))}
         </nav>
 
         {/* Platform Links - Desktop */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-3">
           {platformLinks.map((item) => (
             <Link key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="group relative">
               <Button
                 variant="outline"
                 size="sm"
-                className="flex items-center gap-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+                className="flex items-center gap-1.5 border border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground bg-transparent transition-all duration-300 font-medium text-sm"
               >
                 {item.icon}
                 {item.label}
               </Button>
-              <div className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-48 p-2 bg-popover text-popover-foreground text-xs rounded-md shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-48 p-3 bg-popover text-popover-foreground text-xs rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
                 {item.description}
               </div>
             </Link>
@@ -85,7 +86,7 @@ export function SiteHeader() {
           <ThemeToggle />
 
           <Link href="/apply" className="hidden md:block">
-            <Button className="bg-primary hover:bg-primary/90">Apply</Button>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold transition-all duration-300 hover:shadow-lg">Apply</Button>
           </Link>
         </div>
 

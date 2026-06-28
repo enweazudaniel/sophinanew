@@ -20,40 +20,60 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Scrolling Announcement */}
-      <ScrollingAnnouncement text="Now accepting applications for the 2025-26 School Year" />
+      <ScrollingAnnouncement text="Now accepting applications for the 2026-27 School Year" />
 
       {/* Hero Section */}
       <ImageSlider slides={slides} />
 
       {/* Welcome Section */}
-      <section className="py-16 container mx-auto px-4 grid md:grid-cols-2 gap-12">
-        <div className="space-y-6">
-          <div>
-            <h2 className="text-2xl font-bold mb-4 text-primary">Welcome to Sophina School</h2>
-            <p className="text-muted-foreground">
-              We foster a culture of excellence, nurturing a love for learning in a supportive environment. Our approach
-              encourages curiosity, creativity, and builds a strong foundation in academics and character development.
-            </p>
+      <section className="section-padding container-premium">
+        <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="space-y-8 animate-fade-in-up">
+            <div>
+              <h2 className="text-primary mb-6">Welcome to Sophina School</h2>
+              <p className="text-lg text-muted-foreground leading-8">
+                We foster a culture of excellence, nurturing a love for learning in a supportive environment. Our approach
+                encourages curiosity, creativity, and builds a strong foundation in academics and character development.
+              </p>
+            </div>
+            <div className="flex gap-4 pt-4">
+              <Link href="/apply">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg transition-all duration-300 hover:shadow-lg">
+                  Apply Now
+                </Button>
+              </Link>
+              <Link href="/our-school">
+                <Button variant="outline" className="font-semibold px-8 py-6 text-lg transition-all duration-300 hover:border-primary hover:text-primary">
+                  Learn More
+                </Button>
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="aspect-video w-full rounded-lg overflow-hidden bg-muted">
-          <iframe
-            src="https://www.youtube.com/embed/0WXhVtbvBLE?si=B0MsC1KCWDFjSceQ"
-            title="Welcome to Sophina School"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="w-full h-full"
-          />
+          <div className="aspect-video w-full rounded-2xl overflow-hidden bg-muted shadow-xl animate-scale-in">
+            <iframe
+              src="https://www.youtube.com/embed/0WXhVtbvBLE?si=B0MsC1KCWDFjSceQ"
+              title="Welcome to Sophina School"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
         </div>
       </section>
 
       {/* What Sets Us Apart */}
-      <section className="bg-muted/30 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-primary">What Sets Us Apart?</h2>
-          <div className="space-y-12 max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="aspect-video relative rounded-lg overflow-hidden">
+      <section className="section-padding bg-muted/40">
+        <div className="container-premium">
+          <div className="text-center mb-16">
+            <h2 className="text-primary mb-4">What Sets Us Apart?</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Discover what makes Sophina School a premier educational institution dedicated to excellence
+            </p>
+          </div>
+          <div className="section-spacing">
+            {/* Feature 1 */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="aspect-video relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
                 <Image
                   src="https://i.ibb.co/5hBwY4Tf/photo-2025-12-03-22-33-03.jpg"
                   alt="Students learning"
@@ -63,25 +83,27 @@ export default function HomePage() {
                   quality={80}
                 />
               </div>
-              <div className="p-6 bg-background rounded-lg shadow-sm border">
-                <h3 className="text-xl font-bold text-primary mb-4">Learner-Centered</h3>
-                <p className="text-muted-foreground mb-4">
+              <div className="card-elevated">
+                <h3 className="text-3xl text-primary mb-4">Learner-Centered</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   At Sophina School, students take charge of their learning journey with our
                   innovative approach to education. Our distinctive environment fosters independence, curiosity, and a
                   lifelong love for learning.
                 </p>
               </div>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="p-6 bg-background rounded-lg shadow-sm md:order-first border">
-                <h3 className="text-xl font-bold text-primary mb-4">Innovative Curriculum</h3>
-                <p className="text-muted-foreground mb-4">
+
+            {/* Feature 2 */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="card-elevated md:order-first">
+                <h3 className="text-3xl text-primary mb-4">Innovative Curriculum</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   Our curriculum is designed to challenge and inspire, integrating traditional subjects with modern
                   skills. We emphasize critical thinking, problem-solving, and creativity to prepare students for future
                   success.
                 </p>
               </div>
-              <div className="aspect-video relative rounded-lg overflow-hidden">
+              <div className="aspect-video relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
                 <Image
                   src="https://i.ibb.co/RGt3spWN/PXL-20241022-093659790-1-1-1.png"
                   alt="Innovative curriculum"
@@ -92,8 +114,10 @@ export default function HomePage() {
                 />
               </div>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="aspect-video relative rounded-lg overflow-hidden">
+
+            {/* Feature 3 */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="aspect-video relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
                 <Image
                   src="https://i.ibb.co/xKR8G410/photo-2025-12-03-23-15-02.jpg"
                   alt="Holistic development"
@@ -103,9 +127,9 @@ export default function HomePage() {
                   quality={80}
                 />
               </div>
-              <div className="p-6 bg-background rounded-lg shadow-sm border">
-                <h3 className="text-xl font-bold text-primary mb-4">Holistic Development</h3>
-                <p className="text-muted-foreground mb-4">
+              <div className="card-elevated">
+                <h3 className="text-3xl text-primary mb-4">Holistic Development</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   We believe in nurturing the whole child. Our programs focus on academic excellence while also
                   developing social skills, emotional intelligence, and physical well-being.
                 </p>
@@ -116,9 +140,14 @@ export default function HomePage() {
       </section>
 
       {/* News Section */}
-      <section className="py-16 container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-primary">In the News</h2>
-        <div className="max-w-3xl mx-auto space-y-6">
+      <section className="section-padding container-premium">
+        <div className="text-center mb-16">
+          <h2 className="text-primary mb-4">Latest News & Updates</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Stay informed with the latest happenings at Sophina School
+          </p>
+        </div>
+        <div className="grid gap-6 max-w-4xl mx-auto">
           {[
             {
               title: "Annual Colour Day",
@@ -148,18 +177,21 @@ export default function HomePage() {
                 "We're excited to welcome new and returning students as we kick off another year of learning and growth at Sophina Nursery & Primary School",
             },
           ].map((news, i) => (
-            <div key={i} className="flex gap-4 items-start">
-              <Image
-                src={news.image || "/placeholder.svg"}
-                alt={news.title}
-                width={80}
-                height={80}
-                className="rounded-lg object-cover"
-              />
-              <div>
-                <h3 className="font-bold text-lg text-foreground">{news.title}</h3>
-                <p className="text-sm text-muted-foreground mb-1">{news.date}</p>
-                <p className="text-muted-foreground">{news.description}</p>
+            <div key={i} className="card-premium flex gap-6 items-start hover:shadow-xl transition-all duration-300">
+              <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
+                <Image
+                  src={news.image || "/placeholder.svg"}
+                  alt={news.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-baseline justify-between mb-2">
+                  <h3 className="font-semibold text-lg text-foreground">{news.title}</h3>
+                  <span className="text-xs font-medium text-primary whitespace-nowrap ml-4">{news.date}</span>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">{news.description}</p>
               </div>
             </div>
           ))}
@@ -167,17 +199,22 @@ export default function HomePage() {
       </section>
 
       {/* Application CTA */}
-      <section className="py-16 container mx-auto px-4 text-center">
-        <Link href="/apply">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 mb-6">
-            Apply Now
-          </Button>
-        </Link>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Sophina School is dedicated to providing a nurturing and innovative learning environment.
-          Our focus is on building a strong foundation for lifelong learning through creativity, curiosity, and academic
-          excellence.
-        </p>
+      <section className="section-padding bg-muted/40">
+        <div className="container-premium text-center space-y-8">
+          <div className="space-y-4">
+            <h2 className="text-primary">Ready to Join Sophina School?</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Sophina School is dedicated to providing a nurturing and innovative learning environment.
+              Our focus is on building a strong foundation for lifelong learning through creativity, curiosity, and academic
+              excellence.
+            </p>
+          </div>
+          <Link href="/apply">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12 py-7 text-lg transition-all duration-300 hover:shadow-lg">
+              Start Your Application
+            </Button>
+          </Link>
+        </div>
       </section>
     </div>
   )

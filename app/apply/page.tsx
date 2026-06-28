@@ -4,10 +4,10 @@ import ApplyPageClient from "./ApplyPageClient"
 export const metadata: Metadata = {
   title: "Apply Now",
   description:
-    "Apply to Sophina School for the 2025-26 school year. Join our inclusive educational environment focused on academic excellence.",
+    "Apply to Sophina School for the 2026-27 school year. Join our inclusive educational environment focused on academic excellence.",
   openGraph: {
     title: "Apply Now | Sophina School",
-    description: "Submit your application for the 2025-26 school year at Sophina School.",
+    description: "Submit your application for the 2026-27 school year at Sophina School.",
     images: [
       {
         url: "https://i.ibb.co/V0MpQTHv/photo-2025-02-13-08-28-22.jpg",
