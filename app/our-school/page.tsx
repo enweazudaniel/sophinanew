@@ -648,7 +648,7 @@ export default function OurSchoolPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="relative h-[400px] w-full">
+      <div className="relative h-96 md:h-[500px] w-full overflow-hidden">
         <Image
           src="https://i.ibb.co/V0MpQTHv/photo-2025-02-13-08-28-22.jpg"
           alt="Our School"
@@ -656,36 +656,36 @@ export default function OurSchoolPage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">Our School</h1>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center">
+          <h1 className="text-5xl md:text-7xl font-bold text-white text-center px-4 drop-shadow-lg">Our School</h1>
         </div>
       </div>
 
       {/* Introduction */}
-      <section className="py-16 text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4 text-primary">
-            We believe that everyone's a student and everyone's a teacher.
-          </h2>
-          <p className="text-muted-foreground">
-            Our Students and staff work together to foster a collaborative learning environment.
+      <section className="section-padding container-premium text-center">
+        <div className="space-y-6 max-w-3xl mx-auto">
+          <h2 className="text-primary">We believe that everyone's a student and everyone's a teacher.</h2>
+          <p className="text-xl text-muted-foreground leading-relaxed">
+            Our students and staff work together to foster a collaborative learning environment where curiosity thrives and excellence flourishes.
           </p>
         </div>
       </section>
 
       {/* Class Sections */}
-      {classes.map((level) => (
-        <section key={level.level} className="py-12">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-8 text-center text-primary">{level.level}</h2>
+      {classes.map((level, levelIndex) => (
+        <section key={level.level} className={`section-padding ${levelIndex % 2 === 0 ? 'bg-muted/30' : ''}`}>
+          <div className="container-premium">
+            <div className="text-center mb-16">
+              <h2 className="text-primary mb-4">{level.level}</h2>
+              <p className="text-muted-foreground">Comprehensive educational programs tailored for each age group</p>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {level.sections.map((section) => (
-                <div key={section.name} className="bg-card rounded-lg shadow-sm overflow-hidden border">
-                  {/* Use custom images for Basic 8, Basic 7, and Pre-Nursery, default slider for others */}
+                <div key={section.name} className="card-elevated overflow-hidden hover:shadow-2xl transition-all duration-300">
                   <ClassImageSlider className={section.name} customImages={section.customImages} />
-                  <div className="p-4 text-center">
-                    <h3 className="font-bold text-lg text-primary">{section.name}</h3>
-                    <p className="text-muted-foreground">{level.level}</p>
+                  <div className="p-6 text-center">
+                    <h3 className="text-xl font-bold text-primary mb-2">{section.name}</h3>
+                    <p className="text-sm text-muted-foreground">{level.level}</p>
                   </div>
                 </div>
               ))}
@@ -695,22 +695,25 @@ export default function OurSchoolPage() {
       ))}
 
       {/* Staff Section */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-center text-primary">Staff and the Board of Trustees</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {staffMembers.map((staff, index) => (
-              <div key={index} className="bg-card rounded-lg shadow-sm overflow-hidden border">
-                <div className="relative aspect-video">
-                  <Image src={staff.image || "/placeholder.svg"} alt={staff.name} fill className="object-cover" />
-                </div>
-                <div className="p-4 text-center">
-                  <h3 className="font-bold text-lg text-primary">{staff.name}</h3>
-                  <p className="text-muted-foreground">{staff.position}</p>
-                </div>
+      <section className="section-padding container-premium">
+        <div className="text-center mb-16">
+          <h2 className="text-primary mb-4">Meet Our Team</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Dedicated educators and staff committed to your child's success
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {staffMembers.map((staff, index) => (
+            <div key={index} className="card-elevated overflow-hidden hover:shadow-2xl transition-all duration-300">
+              <div className="relative aspect-square">
+                <Image src={staff.image || "/placeholder.svg"} alt={staff.name} fill className="object-cover hover:scale-105 transition-transform duration-500" />
               </div>
-            ))}
-          </div>
+              <div className="p-6 text-center">
+                <h3 className="text-lg font-bold text-primary mb-1">{staff.name}</h3>
+                <p className="text-sm text-muted-foreground">{staff.position}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>

@@ -26,9 +26,9 @@ const classes = [
 
 export default function StudentLifePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="relative h-[400px] w-full">
+      <div className="relative h-96 md:h-[500px] w-full overflow-hidden">
         <Image
           src="https://i.ibb.co/V0MpQTHv/photo-2025-02-13-08-28-22.jpg"
           alt="Faculty & Staff"
@@ -36,37 +36,38 @@ export default function StudentLifePage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">Staff & Students</h1>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center">
+          <h1 className="text-5xl md:text-7xl font-bold text-white text-center px-4 drop-shadow-lg">Staff & Students</h1>
         </div>
       </div>
 
       {/* Introduction */}
-      <section className="py-16 text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4 text-blue-600">
-            We believe that everyone's a student and everyone's a teacher.
-          </h2>
-          <p className="text-gray-600">
-            Our faculty and staff work together to foster a collaborative learning environment.
+      <section className="section-padding container-premium text-center">
+        <div className="space-y-6 max-w-3xl mx-auto">
+          <h2 className="text-primary">We believe that everyone's a student and everyone's a teacher.</h2>
+          <p className="text-xl text-muted-foreground leading-relaxed">
+            Our faculty and staff work together to foster a collaborative learning environment where every voice is valued.
           </p>
         </div>
       </section>
 
       {/* Class Sections */}
-      {classes.map((level) => (
-        <section key={level.level} className="py-12">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-8 text-center text-blue-600">{level.level}</h2>
+      {classes.map((level, levelIndex) => (
+        <section key={level.level} className={`section-padding ${levelIndex % 2 === 0 ? 'bg-muted/30' : ''}`}>
+          <div className="container-premium">
+            <div className="text-center mb-16">
+              <h2 className="text-primary mb-4">{level.level}</h2>
+              <p className="text-muted-foreground">Nurturing minds and building confidence</p>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {level.sections.map((section) => (
-                <div key={section.name} className="bg-white rounded-lg shadow-sm overflow-hidden">
+                <div key={section.name} className="card-elevated overflow-hidden hover:shadow-2xl transition-all duration-300">
                   <div className="relative aspect-video">
-                    <Image src={section.image || "/placeholder.svg"} alt={section.name} fill className="object-cover" />
+                    <Image src={section.image || "/placeholder.svg"} alt={section.name} fill className="object-cover hover:scale-105 transition-transform duration-500" />
                   </div>
-                  <div className="p-4 text-center">
-                    <h3 className="font-bold text-lg text-blue-600">{section.name}</h3>
-                    <p className="text-gray-600">{level.level}</p>
+                  <div className="p-6 text-center">
+                    <h3 className="text-lg font-bold text-primary mb-1">{section.name}</h3>
+                    <p className="text-sm text-muted-foreground">{level.level}</p>
                   </div>
                 </div>
               ))}
@@ -75,24 +76,27 @@ export default function StudentLifePage() {
         </section>
       ))}
 
-      {/* Staff Section */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-center text-blue-600">Staff and the Board of Trustees</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-              <div className="relative aspect-video">
-                <Image
-                  src="https://i.ibb.co/8vd7wWw/model1.jpg"
-                  alt="Pastor Philip Enweazu"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4 text-center">
-                <h3 className="font-bold text-lg text-blue-600">Pastor Philip Enweazu</h3>
-                <p className="text-gray-600">Owner</p>
-              </div>
+      {/* Leadership Section */}
+      <section className="section-padding container-premium">
+        <div className="text-center mb-16">
+          <h2 className="text-primary mb-4">Our Leadership</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Visionary leaders dedicated to educational excellence
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-2xl mx-auto">
+          <div className="card-elevated overflow-hidden hover:shadow-2xl transition-all duration-300">
+            <div className="relative aspect-square">
+              <Image
+                src="https://i.ibb.co/8vd7wWw/model1.jpg"
+                alt="Pastor Philip Enweazu"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6 text-center">
+              <h3 className="text-lg font-bold text-primary mb-1">Pastor Philip Enweazu</h3>
+              <p className="text-sm text-muted-foreground">Founder & Owner</p>
             </div>
           </div>
         </div>
